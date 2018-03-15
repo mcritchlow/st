@@ -1,0 +1,11 @@
+diff --git a/config.mk b/config.mk
+index b2eac10..f2120fc 100644
+--- a/config.mk
++++ b/config.mk
+@@ -24,5 +24,5 @@ STCFLAGS = $(INCS) $(CPPFLAGS) $(CFLAGS)
+ STLDFLAGS = $(LIBS) $(LDFLAGS)
+ 
+ # compiler and linker
+-# CC = c99
++CC = gcc
+ 
